@@ -1,0 +1,64 @@
+nav{
+  background-color:plum;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  box-shadow: 1px 1px 4px dimgray;
+}
+
+nav div{
+  background-color: pink;
+  width:200px;
+  height: 80px;
+  border-radius: 8px;
+  font-size: 35px;
+  font-weight: 900;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 4px;
+}
+
+.active{
+  box-shadow: none;
+  font-size: 38px;
+  margin-top: 30px;
+  color:hotpink;
+  text-shadow: 2px 2px 2px deeppink;
+}
+
+h1{
+  cursor:default;
+}
+
+body{
+  background-color: pink;
+}
+
+.content{
+  padding:60px;
+  display: flex;
+  gap:60px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.container{
+  border-radius: 10px;
+  padding:50px;
+  background-color: plum;
+  box-shadow: 0 2px 8px darkorchid;
+  flex:1;
+}
+
+img{
+  width:200px;
+}
+
+p{
+  color: deeppink;
+  font-size: large;
+  font-weight: 600;
+}

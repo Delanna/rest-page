@@ -1,0 +1,46 @@
+export default function menu(){
+
+  const contentDiv = document.getElementById("content");
+  contentDiv.classList.add("menu");
+  contentDiv.innerHTML = `
+  <div class="container">
+  <div class="card">
+    <h2>Lunch</h2>
+    <div class="imgs">
+      <img src="imgs/burger.jpg" alt="burger illustration">
+      <p>$15.00</p>
+      <img src="imgs/hotdog.jpg" alt="hotdog illustration">
+      <p>$5.00</p>
+      <img src="imgs/pizza.jpg" alt="">
+      <p>$7.00</p>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <h2>Dessert</h2>
+      <div class="imgs">
+        <img src="imgs/cookie.jpg" alt="cookie illustration">
+        <p>$2.00</p>
+        <img src="imgs/cupcake.jpg" alt="cupcake illustration">
+        <p>$4.00</p>
+        <img src="imgs/donut.jpg" alt="donut illustration">
+        <p>$2.50</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <h2>Drinks</h2>
+      <div class="img">
+        <img src="imgs/coconut.jpg" alt="coconut illustration">
+        <p>$5.00</p>
+        <img src="imgs/coffee.jpg" alt="coffee illustration">
+        <p>$8.00</p>
+        <img src="imgs/espresso.jpg" alt="espresso illustration">
+        <p>$6.00</p>
+      </div>
+    </div>
+  </div>
+  `
+};

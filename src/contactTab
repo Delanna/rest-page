@@ -1,0 +1,25 @@
+export default function contact(){
+
+  const contentDiv = document.getElementById("content");
+  contentDiv.classList.add("contact");
+  contentDiv.innerHTML =  `
+  <div class="container">
+  <h2>Home page images</h2>
+  <a href="https://www.flaticon.com/free-stickers/hourglass" title="hourglass stickers">Hourglass stickers created by Gohsantosadrive - Flaticon</a>
+
+  <a href="https://www.flaticon.com/free-stickers/paper" title="paper stickers">Paper stickers created by Design Circle - Flaticon</a>
+
+  <a href="https://www.flaticon.com/free-stickers/beach-bar" title="beach bar stickers">Beach bar stickers created by DinosoftLabs - Flaticon</a>
+  </div>
+  <div class="container">
+    <h2>Contact Info</h2>
+    <h3>Email:</h3>
+    <p>notmadeup@Forreal.com</p>
+    <h3>Phone:</h3>
+    <p>784 4567890</p>
+  </div>
+  <div class="container">
+    <h2>Menu page images</h2>
+    <p>Image by catalyststuff on Flaticon.com</p>
+  </div>  `
+}
